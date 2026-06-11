@@ -1,0 +1,41 @@
+[17840:28912:0611/125606.715:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[17840:26304:0611/125606.780:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[17840:28912:0611/125606.796:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[17840:26304:0611/125611.748:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[17840:26304:0611/125611.749:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[22616:18024:0611/125611.749:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125611.750:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[22616:18024:0611/125611.751:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125611.751:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[17840:28912:0611/125611.968:ERROR:device_event_log_impl.cc(196)] [12:56:11.935] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[17840:26304:0611/125611.971:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[22616:18024:0611/125611.977:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125611.977:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[35632:25744:0611/125612.370:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-DADA36C05AFA19C50AB1CA32349E81AD will be ignored
+[22616:18024:0611/125614.971:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[22616:18024:0611/125615.098:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[22616:18024:0611/125619.846:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125619.846:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[22616:18024:0611/125619.866:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125619.866:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[22616:18024:0611/125620.149:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125620.149:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[22616:18024:0611/125630.658:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[22616:18024:0611/125641.551:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[22616:18024:0611/125711.916:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125711.916:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[22616:18024:0611/125913.647:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[22616:18024:0611/125913.647:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[17840:28912:0611/130344.361:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
