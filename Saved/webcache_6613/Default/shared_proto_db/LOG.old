@@ -1,2 +1,3 @@
-2026/06/11-12:56:11.277 8840 Creating DB C:\Users\santi\Unreal Projects\ProjectGroovy\Saved\webcache_6613\Default\shared_proto_db since it was missing.
-2026/06/11-12:56:11.284 8840 Reusing MANIFEST C:\Users\santi\Unreal Projects\ProjectGroovy\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2026/06/12-16:36:47.525 8678 Reusing MANIFEST C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2026/06/12-16:36:47.526 8678 Recovering log #3
+2026/06/12-16:36:47.527 8678 Reusing old log C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\shared_proto_db/000003.log 

@@ -8,6 +8,21 @@
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Maps/TestLevel.umap",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/MI_FirstPersonColorway.uasset",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/BP_NotePad.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Materials/ML_Transparent.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Materials/M_KeyPad.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Textures/notes_texture.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Materials/ML_Keys.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Materials/MLB_KeyPad.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Textures/notes_texture_bw.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/BP_DeletePad.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/RythmGlobals.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/Beats.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/BP_Beats.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Textures/T_Notes.uasset",
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/Materials/M_KeyNotes.uasset",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/ThirdPerson/MI_ThirdPersonColWay.uasset",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/SS/QXUZ4IXFNKHCYFWERA1HQA.uasset",
@@ -79,9 +94,7 @@
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/ThirdPerson/Lvl_ThirdPerson.umap",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset",
 				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
-				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/FirstPerson/Blueprints/BP_NotePad.uasset",
-				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"C:/Users/santi/Unreal Projects/ProjectGroovy/ProjectGroovy/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
