@@ -33,8 +33,12 @@ When created, it will create the measure bars and the notes themselves.
 Notes can appear in every 1/4 beat, but they are not forced to. Measure bars will spawn unconditionally every beat to 
 represent the start of a new measure. 
 
-The supported notes length are: Sixteenth notes, Quarter Notes, Half Notes, and Whole Notes. Throughout the game's development, I
-will also treat Eigth notes and Sixteenth notes as the same. Dotted notes are currently not supported, nor the combinations
+The supported notes length are: Sixteenth notes, Quarter Notes, Half Notes, and Whole Notes.
+
+Throughout the game's development, I
+will also treat Eigth notes and Sixteenth notes as the same.
+
+Dotted notes are currently not supported, nor the combinations
 of two notes into one. 
 
 There are four unique music notes, which from the left to right are: *Yellow*: 0, *Blue*: 1, *Green* 2, *Red* 3. Whenever the game or this documentation refers to the notes are numbers, this is what they currespond to.  
@@ -45,7 +49,7 @@ every note of the song. It will then use the actor's transform, a vector, and th
 
 `BP_NotePad` has a collision capsule at its front. When this collides with the player, it will create a new instance of `BP_NotePad` on top of the existing one (*note* this is still pretty rough lol).
 
-Below the scene is an instance pf `BP_DeletePad`. Whenever anything end of the moving components stop overlapping with it, it will delete the
+Below the scene is an instance of `BP_DeletePad`. Whenever anything end of the moving components stop overlapping with it, it will delete the
 actor.
 
 # Note Creation
@@ -68,8 +72,11 @@ song content. The song is stored in `Song` as an array. Each element in the arra
 This is what each entry represents:
 
 "" means rest/no new note.
+
 NM, where N is a note and M is a modifer.
+
 N is any number between 0-3 representing the notes
+
 M can be the following:
 - *Nothing*, which means a sixteenth note.
 - */*, which means it a quarter note.
