@@ -22,8 +22,8 @@ sure to be tabbed in.
 - Right now, after the game stops reading notes, the game does not end on its own. Press escape to leave
 the game.
 
-# TECHNICAL EXPLANATION
-**Big Picture**
+
+# Big Picture
 
 The gamemode and character are repurposed from the First-Person default game mode, with movement, both in the world
 and within the camera, being disabled, and the first person model that the player components uses being removed.
@@ -39,7 +39,7 @@ of two notes into one.
 
 There are four unique music notes, which from the left to right are: *Yellow*: 0, *Blue*: 1, *Green* 2, *Red* 3. Whenever the game or this documentation refers to the notes are numbers, this is what they currespond to.  
 
-**Spawning Actors**
+# Spawning Actors
 When the BeginPlay event is triggered on `BP_NotePad`, it will read out the `noteArray` from `BP_RhythmGameMode`, which contains
 every note of the song. It will then use the actor's transform, a vector, and the variable `cubeOffsetScale` to determien the new location of the note. It will then rotate the new note to be the same as `BP_NotePad`. Every iterations decrements `cubeOffsetScale` by 25. Every iteration where `cubeOffsetScale` has decreased by 100 from the last creation of `BP_Beats` (the measure bar), a new instance of `BP_Beats`. 
 
@@ -48,21 +48,21 @@ every note of the song. It will then use the actor's transform, a vector, and th
 Below the scene is an instance pf `BP_DeletePad`. Whenever anything end of the moving components stop overlapping with it, it will delete the
 actor.
 
-**Note Creation**
+# Note Creation
 Whenever any note is created, which are `BP_PlayNote`, and `BP_QuaterNote` and all of its children, will read what note they are associated
 with from the `noteArray`, which is a number from 0 to 3. This will determine the following:
 - What Material Instance is used
 - What keyboard input corresponds with it.
 - The slight offset of position in notes.
 
-**Actor Movement**
+# Actor Movement
 The movement is determined by the following:
 - A constant vector `baseMovement`, only have non-zero values in the `y-component`.
 - The `BPM`. Song dependent, the higher the `BPM`, the faster objectes moves.
 - Delta Seconds, so the movement speed is independent of frame rate.
 - The actor's transformation.
 
-**Intepreting Notes**
+# Intepreting Notes
 Currently, song data is stored in `Content/Data/test_song.json`. This stores the `BPM` and the actual
 song content. The song is stored in `Song` as an array. Each element in the array currensponds to a 1/4 beat.
 This is what each entry represents:
@@ -79,7 +79,7 @@ M can be the following:
 When the game is initialized, `BP_RhythmGameMode` reads the JSON data and stores both the data in `Song` and on `BPM`.
 Afterwards, `BP_NotePad` decides which note length to use and what type of music note it should be. 
 
-**Reading Player Input** 
+# Reading Player Input*
 Every note has an `active` attribute. This determines whether the note is currently playable.
 
 Whenever a key is pressed, the program searches for the first note that the `active` attribute set to 
