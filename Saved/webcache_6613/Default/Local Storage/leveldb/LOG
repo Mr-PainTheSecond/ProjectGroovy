@@ -1,3 +1,5 @@
-2026/06/18-16:10:25.172 8c80 Reusing MANIFEST C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/06/18-16:10:25.179 8c80 Recovering log #13
-2026/06/18-16:10:25.182 8c80 Reusing old log C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\Local Storage\leveldb/000013.log 
+2026/06/18-17:13:45.618 6754 Reusing MANIFEST C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/18-17:13:45.626 6754 Recovering log #13
+2026/06/18-17:13:45.627 6754 Level-0 table #16: started
+2026/06/18-17:13:45.636 6754 Level-0 table #16: 70990 bytes OK
+2026/06/18-17:13:45.644 6754 Delete type=0 #13
