@@ -15,12 +15,12 @@ if __name__ == "__main__":
     bw_pixels = []
     
     for r, g, b, a in old_pixel:
-        if a == 0:
-            bw_pixels.append((0, 0, 0, 255))
-        else:
+        if a != 0:
             bw_pixels.append((255, 255, 255, 255))
+        else:
+           bw_pixels.append((0, 0, 0, 0))
     
     bwImage = Image.new("RGBA", reg_img.size)
     bwImage.putdata(bw_pixels)
-    bwImage.save(src_file.replace(".png", "") + "_bw.png")   
+    bwImage.save(src_file.replace(".png", "") + "_white.png")   
 

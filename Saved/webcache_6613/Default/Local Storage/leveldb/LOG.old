@@ -1,13 +1,3 @@
-2026/06/18-07:54:20.059 6d48 Reusing MANIFEST C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/06/18-07:54:20.076 6d48 Recovering log #10
-2026/06/18-07:54:20.076 6d48 Level-0 table #12: started
-2026/06/18-07:54:20.083 6d48 Level-0 table #12: 62156 bytes OK
-2026/06/18-07:54:20.088 6d48 Delete type=0 #10
-2026/06/18-07:54:20.089 6d28 Compacting 4@0 + 0@1 files
-2026/06/18-07:54:20.103 6d28 Generated table #14@0: 4 keys, 9639 bytes
-2026/06/18-07:54:20.103 6d28 Compacted 4@0 + 0@1 files => 9639 bytes
-2026/06/18-07:54:20.104 6d28 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/06/18-07:54:20.105 6d28 Delete type=2 #3
-2026/06/18-07:54:20.105 6d28 Delete type=2 #6
-2026/06/18-07:54:20.105 6d28 Delete type=2 #9
-2026/06/18-07:54:20.105 6d28 Delete type=2 #12
+2026/06/18-11:12:49.491 7688 Reusing MANIFEST C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/18-11:12:49.496 7688 Recovering log #13
+2026/06/18-11:12:49.500 7688 Reusing old log C:\Users\santi\Unreal Projects\ProjectGroovy\ProjectGroovy\Saved\webcache_6613\Default\Local Storage\leveldb/000013.log 
