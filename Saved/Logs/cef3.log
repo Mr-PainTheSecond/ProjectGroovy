@@ -1,3 +1,51 @@
-[27972:4552:0618/171345.435:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[27972:32592:0618/171345.519:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[27972:4552:0618/171345.533:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[24068:18284:0619/111039.637:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[24068:2792:0619/111039.975:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[24068:18284:0619/111040.112:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[24068:2792:0619/111047.303:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[24068:2792:0619/111047.445:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[30728:30300:0619/111047.445:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111047.448:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[24068:2792:0619/111047.515:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[30728:30300:0619/111047.516:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111047.516:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[30728:30300:0619/111047.523:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111047.524:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[24068:18284:0619/111047.673:ERROR:device_event_log_impl.cc(196)] [11:10:47.661] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[31616:25380:0619/111047.983:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-DADA9CFEAC472BA736C4ABD1A5402584 will be ignored
+[30728:30300:0619/111050.513:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[30728:30300:0619/111050.568:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[30728:30300:0619/111055.571:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111055.571:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[30728:30300:0619/111055.625:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111055.626:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[30728:30300:0619/111055.644:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111055.644:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[30728:30300:0619/111058.183:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[30728:30300:0619/111107.582:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[30728:30300:0619/111147.270:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111147.270:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[30728:30300:0619/111614.056:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/111614.056:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[24068:18284:0619/145952.538:ERROR:device_event_log_impl.cc(196)] [14:59:52.319] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24068:18284:0619/145954.949:ERROR:device_event_log_impl.cc(196)] [14:59:54.688] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24068:18284:0619/150110.629:ERROR:device_event_log_impl.cc(196)] [15:01:10.615] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24068:2792:0619/151656.847:ERROR:cert_verify_proc_builtin.cc(1063)] CertVerifyProcBuiltin for wpad failed:
+----- Certificate i=0 (CN=self-signedKey,O=Sagemcom Ca,C=FR) -----
+ERROR: No matching issuer found
+
+
+[30728:30300:0619/151656.864:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -202
+[30728:30300:0619/151656.864:WARNING:pac_file_fetcher_impl.cc(267)] SSL certificate error when fetching PAC script, aborting.
+[24068:18284:0619/163920.943:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
